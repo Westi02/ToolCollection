@@ -1,1 +1,0 @@
-Powershell.exe -executionpolicy remotesigned %~dp0\close_button.ps1
