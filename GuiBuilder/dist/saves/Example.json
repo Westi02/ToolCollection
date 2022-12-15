@@ -1,0 +1,92 @@
+{
+    "meta": {
+        "title": "Example",
+        "icon": "C:/Develop/Powershell_Workspace/prepare.ico",
+        "location": "center",
+        "cmd": true
+    },
+    "panel": {
+        "size": [
+            318,
+            288
+        ],
+        "color": "#DFDFAA",
+        "elements": {
+            "label_0": {
+                "location": [
+                    0,
+                    18.5
+                ],
+                "size": [
+                    92,
+                    36
+                ],
+                "text": "Color:",
+                "text_size": 17,
+                "text_alignment": "right",
+                "color": "#000000"
+            },
+            "button_1": {
+                "location": [
+                    105.0,
+                    180.0
+                ],
+                "size": [
+                    118,
+                    88
+                ],
+                "text": "",
+                "text_size": 17,
+                "text_alignment": "center",
+                "color": "#FFFFFF",
+                "background_color": "#777777",
+                "script": "if (Is-Checked \"blue\") {\n    start-process \"cmd\" -ArgumentList \"/k color 90 & @echo off & title blue example & echo This is an example, on how to create a form using the Gui Builder.\"\n} elseif (Is-Checked \"green\") {\n    start-process \"cmd\" -ArgumentList \"/k color a0 & @ echo off & title green example & echo This is an example, on how to create a form using the Gui Builder.\"\n} else {\n    start-process \"cmd\"\n}",
+                "icon": "C:/Develop/Python_Workspace/misc/icons8-konsole-100.png"
+            },
+            "checkbox_2": {
+                "location": [
+                    95,
+                    55
+                ],
+                "size": [
+                    135,
+                    38
+                ],
+                "text": "blue",
+                "text_size": 15,
+                "text_alignment": "left",
+                "color": "#00aaFF",
+                "key": "blue"
+            },
+            "checkbox_3": {
+                "location": [
+                    95.5,
+                    110
+                ],
+                "size": [
+                    135,
+                    40
+                ],
+                "text": "green",
+                "text_size": 15,
+                "text_alignment": "left",
+                "color": "#00AA00",
+                "key": "green"
+            },
+            "label_4": {
+                "location": [
+                    -7.0,
+                    33.0
+                ],
+                "size": [
+                    100,
+                    24
+                ],
+                "text": "____",
+                "text_size": 30,
+                "text_alignment": "center",
+                "color": "#000000"
+            }
+        }
+    }
+}
