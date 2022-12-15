@@ -1,0 +1,1 @@
+Powershell.exe -executionpolicy remotesigned %~dp0\CreateCMD.ps1

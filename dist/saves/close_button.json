@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "title": "",
+        "icon": "",
+        "location": "center",
+        "cmd": true
+    },
+    "panel": {
+        "size": [
+            440,
+            442
+        ],
+        "color": "#DFDFDF",
+        "elements": {
+            "button_0": {
+                "location": [
+                    124.5,
+                    283.0
+                ],
+                "size": [
+                    207,
+                    44
+                ],
+                "text": "fenster schlie\u00dfen",
+                "text_size": 11,
+                "text_alignment": "center",
+                "color": "#000000",
+                "background_color": "#FFFFFF",
+                "script": "$form.close()"
+            },
+            "label_1": {
+                "location": [
+                    147.0,
+                    168.0
+                ],
+                "size": [
+                    168,
+                    32
+                ],
+                "text": "Dr\u00fccke den Button",
+                "text_size": 11,
+                "text_alignment": "center",
+                "color": "#000000"
+            }
+        }
+    }
+}
